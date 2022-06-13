@@ -183,3 +183,27 @@ a:link{
 .temp-text{
     text-align: center;
 }
+
+.desc-content-start{
+    padding-left: 20rem;
+}
+
+.desc-content-end{
+    padding-right: 20rem;
+}
+
+@media only screen and (max-width: 575px){
+    .img-center-custom{
+        justify-content: center !important;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .title-center-custom{
+        align-items: center !important;
+        margin-top: 1rem;
+    }
+    .title-center-custom p{
+        text-align: justify;
+    }
+}
